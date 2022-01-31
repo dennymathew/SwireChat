@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7DC9DDDF27A7E74600B2123B /* SwireChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DDDE27A7E74600B2123B /* SwireChatApp.swift */; };
-		7DC9DDE127A7E74600B2123B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DDE027A7E74600B2123B /* ContentView.swift */; };
+		7DC9DDE127A7E74600B2123B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DDE027A7E74600B2123B /* LoginView.swift */; };
 		7DC9DDE327A7E74800B2123B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC9DDE227A7E74800B2123B /* Assets.xcassets */; };
 		7DC9DDE627A7E74800B2123B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC9DDE527A7E74800B2123B /* Preview Assets.xcassets */; };
 		7DC9DDF027A7E74800B2123B /* SwireChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DDEF27A7E74800B2123B /* SwireChatTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		7DC9DDDB27A7E74600B2123B /* SwireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC9DDDE27A7E74600B2123B /* SwireChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwireChatApp.swift; sourceTree = "<group>"; };
-		7DC9DDE027A7E74600B2123B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DC9DDE027A7E74600B2123B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		7DC9DDE227A7E74800B2123B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DC9DDE527A7E74800B2123B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DC9DDEB27A7E74800B2123B /* SwireChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwireChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				7DC9DDDE27A7E74600B2123B /* SwireChatApp.swift */,
-				7DC9DDE027A7E74600B2123B /* ContentView.swift */,
+				7DC9DDE027A7E74600B2123B /* LoginView.swift */,
 				7DC9DDE227A7E74800B2123B /* Assets.xcassets */,
 				7DC9DDE427A7E74800B2123B /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DC9DDE127A7E74600B2123B /* ContentView.swift in Sources */,
+				7DC9DDE127A7E74600B2123B /* LoginView.swift in Sources */,
 				7DC9DDDF27A7E74600B2123B /* SwireChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
