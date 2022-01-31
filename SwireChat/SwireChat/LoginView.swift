@@ -6,11 +6,14 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct LoginView: View {
     @State var isLogin = true
     @State var email = ""
     @State var password = ""
+    @State var loginStatusMessage = ""
+
     var body: some View {
         NavigationView {
             ScrollView {
@@ -55,19 +58,44 @@ struct LoginView: View {
                         }
                         .background(Color.green)
                     }
+
+                    Text(loginStatusMessage)
+                        .foregroundColor(.red)
+
                 }
                 .padding()
             }
             .navigationTitle(isLogin ? "Log In" : "Create Account")
-            .background(Color(.init(gray: 0, alpha: 0.1)))
+            .background(Color(.init(gray: 0, alpha: 0.1)).ignoresSafeArea())
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 
     private func handleAction() {
         if isLogin {
-            print("Attempt Firebase login with the existing credentials")
+            login()
         } else {
-            print("Attempt to register new user with the email and password")
+            createAccount()
+        }
+    }
+
+    private func createAccount() {
+        FirebaseManager.shared.auth.createUser(withEmail: email, password: password) { result, error in
+            if let error = error {
+                self.loginStatusMessage = error.localizedDescription
+                return
+            }
+            self.loginStatusMessage = "Successfully created account"
+        }
+    }
+
+    private func login() {
+        FirebaseManager.shared.auth.signIn(withEmail: email, password: password) { result, error in
+            if let error = error {
+                loginStatusMessage = "Failed to login! \(error.localizedDescription)"
+                return
+            }
+            loginStatusMessage = "Successfully logged in as \(result?.user.uid ?? "-")"
         }
     }
 }

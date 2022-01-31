@@ -14,6 +14,10 @@
 		7DC9DDF027A7E74800B2123B /* SwireChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DDEF27A7E74800B2123B /* SwireChatTests.swift */; };
 		7DC9DDFA27A7E74800B2123B /* SwireChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DDF927A7E74800B2123B /* SwireChatUITests.swift */; };
 		7DC9DDFC27A7E74800B2123B /* SwireChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DDFB27A7E74800B2123B /* SwireChatUITestsLaunchTests.swift */; };
+		7DC9DE0A27A7F58200B2123B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7DC9DE0927A7F58200B2123B /* FirebaseAuth */; };
+		7DC9DE0C27A7F58200B2123B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7DC9DE0B27A7F58200B2123B /* FirebaseStorage */; };
+		7DC9DE0E27A7F62F00B2123B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DC9DE0D27A7F62F00B2123B /* GoogleService-Info.plist */; };
+		7DC9DE1027A82FDA00B2123B /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DE0F27A82FDA00B2123B /* FirebaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,8 @@
 		7DC9DDF527A7E74800B2123B /* SwireChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwireChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC9DDF927A7E74800B2123B /* SwireChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwireChatUITests.swift; sourceTree = "<group>"; };
 		7DC9DDFB27A7E74800B2123B /* SwireChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwireChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DC9DE0D27A7F62F00B2123B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7DC9DE0F27A82FDA00B2123B /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC9DE0A27A7F58200B2123B /* FirebaseAuth in Frameworks */,
+				7DC9DE0C27A7F58200B2123B /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +102,10 @@
 		7DC9DDDD27A7E74600B2123B /* SwireChat */ = {
 			isa = PBXGroup;
 			children = (
+				7DC9DE0D27A7F62F00B2123B /* GoogleService-Info.plist */,
 				7DC9DDDE27A7E74600B2123B /* SwireChatApp.swift */,
 				7DC9DDE027A7E74600B2123B /* LoginView.swift */,
+				7DC9DE0F27A82FDA00B2123B /* FirebaseManager.swift */,
 				7DC9DDE227A7E74800B2123B /* Assets.xcassets */,
 				7DC9DDE427A7E74800B2123B /* Preview Content */,
 			);
@@ -143,6 +153,10 @@
 			dependencies = (
 			);
 			name = SwireChat;
+			packageProductDependencies = (
+				7DC9DE0927A7F58200B2123B /* FirebaseAuth */,
+				7DC9DE0B27A7F58200B2123B /* FirebaseStorage */,
+			);
 			productName = SwireChat;
 			productReference = 7DC9DDDB27A7E74600B2123B /* SwireChat.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 7DC9DDD227A7E74600B2123B;
+			packageReferences = (
+				7DC9DE0827A7F58200B2123B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7DC9DDDC27A7E74600B2123B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +250,7 @@
 			files = (
 				7DC9DDE627A7E74800B2123B /* Preview Assets.xcassets in Resources */,
 				7DC9DDE327A7E74800B2123B /* Assets.xcassets in Resources */,
+				7DC9DE0E27A7F62F00B2123B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC9DE1027A82FDA00B2123B /* FirebaseManager.swift in Sources */,
 				7DC9DDE127A7E74600B2123B /* LoginView.swift in Sources */,
 				7DC9DDDF27A7E74600B2123B /* SwireChatApp.swift in Sources */,
 			);
@@ -605,6 +624,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7DC9DE0827A7F58200B2123B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7DC9DE0927A7F58200B2123B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DC9DE0827A7F58200B2123B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7DC9DE0B27A7F58200B2123B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DC9DE0827A7F58200B2123B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7DC9DDD327A7E74600B2123B /* Project object */;
 }
