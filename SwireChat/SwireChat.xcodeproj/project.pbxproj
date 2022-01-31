@@ -7,66 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D5A033327A7DACD0066561E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A033227A7DACD0066561E /* AppDelegate.swift */; };
-		7D5A033527A7DACD0066561E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A033427A7DACD0066561E /* SceneDelegate.swift */; };
-		7D5A033727A7DACD0066561E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A033627A7DACD0066561E /* ViewController.swift */; };
-		7D5A033A27A7DACD0066561E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5A033827A7DACD0066561E /* Main.storyboard */; };
-		7D5A033C27A7DACF0066561E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5A033B27A7DACF0066561E /* Assets.xcassets */; };
-		7D5A033F27A7DACF0066561E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5A033D27A7DACF0066561E /* LaunchScreen.storyboard */; };
-		7D5A034A27A7DACF0066561E /* SwireChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A034927A7DACF0066561E /* SwireChatTests.swift */; };
-		7D5A035427A7DAD00066561E /* SwireChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A035327A7DAD00066561E /* SwireChatUITests.swift */; };
-		7D5A035627A7DAD00066561E /* SwireChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A035527A7DAD00066561E /* SwireChatUITestsLaunchTests.swift */; };
+		7DC9DDDF27A7E74600B2123B /* SwireChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DDDE27A7E74600B2123B /* SwireChatApp.swift */; };
+		7DC9DDE127A7E74600B2123B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DDE027A7E74600B2123B /* ContentView.swift */; };
+		7DC9DDE327A7E74800B2123B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC9DDE227A7E74800B2123B /* Assets.xcassets */; };
+		7DC9DDE627A7E74800B2123B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC9DDE527A7E74800B2123B /* Preview Assets.xcassets */; };
+		7DC9DDF027A7E74800B2123B /* SwireChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DDEF27A7E74800B2123B /* SwireChatTests.swift */; };
+		7DC9DDFA27A7E74800B2123B /* SwireChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DDF927A7E74800B2123B /* SwireChatUITests.swift */; };
+		7DC9DDFC27A7E74800B2123B /* SwireChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9DDFB27A7E74800B2123B /* SwireChatUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7D5A034627A7DACF0066561E /* PBXContainerItemProxy */ = {
+		7DC9DDEC27A7E74800B2123B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7D5A032727A7DACD0066561E /* Project object */;
+			containerPortal = 7DC9DDD327A7E74600B2123B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D5A032E27A7DACD0066561E;
+			remoteGlobalIDString = 7DC9DDDA27A7E74600B2123B;
 			remoteInfo = SwireChat;
 		};
-		7D5A035027A7DAD00066561E /* PBXContainerItemProxy */ = {
+		7DC9DDF627A7E74800B2123B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7D5A032727A7DACD0066561E /* Project object */;
+			containerPortal = 7DC9DDD327A7E74600B2123B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D5A032E27A7DACD0066561E;
+			remoteGlobalIDString = 7DC9DDDA27A7E74600B2123B;
 			remoteInfo = SwireChat;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7D5A032F27A7DACD0066561E /* SwireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D5A033227A7DACD0066561E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D5A033427A7DACD0066561E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7D5A033627A7DACD0066561E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7D5A033927A7DACD0066561E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7D5A033B27A7DACF0066561E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7D5A033E27A7DACF0066561E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7D5A034027A7DACF0066561E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D5A034527A7DACF0066561E /* SwireChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwireChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D5A034927A7DACF0066561E /* SwireChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwireChatTests.swift; sourceTree = "<group>"; };
-		7D5A034F27A7DAD00066561E /* SwireChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwireChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D5A035327A7DAD00066561E /* SwireChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwireChatUITests.swift; sourceTree = "<group>"; };
-		7D5A035527A7DAD00066561E /* SwireChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwireChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DC9DDDB27A7E74600B2123B /* SwireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC9DDDE27A7E74600B2123B /* SwireChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwireChatApp.swift; sourceTree = "<group>"; };
+		7DC9DDE027A7E74600B2123B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DC9DDE227A7E74800B2123B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DC9DDE527A7E74800B2123B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DC9DDEB27A7E74800B2123B /* SwireChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwireChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC9DDEF27A7E74800B2123B /* SwireChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwireChatTests.swift; sourceTree = "<group>"; };
+		7DC9DDF527A7E74800B2123B /* SwireChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwireChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC9DDF927A7E74800B2123B /* SwireChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwireChatUITests.swift; sourceTree = "<group>"; };
+		7DC9DDFB27A7E74800B2123B /* SwireChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwireChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7D5A032C27A7DACD0066561E /* Frameworks */ = {
+		7DC9DDD827A7E74600B2123B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D5A034227A7DACF0066561E /* Frameworks */ = {
+		7DC9DDE827A7E74800B2123B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D5A034C27A7DAD00066561E /* Frameworks */ = {
+		7DC9DDF227A7E74800B2123B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,53 +71,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7D5A032627A7DACD0066561E = {
+		7DC9DDD227A7E74600B2123B = {
 			isa = PBXGroup;
 			children = (
-				7D5A033127A7DACD0066561E /* SwireChat */,
-				7D5A034827A7DACF0066561E /* SwireChatTests */,
-				7D5A035227A7DAD00066561E /* SwireChatUITests */,
-				7D5A033027A7DACD0066561E /* Products */,
+				7DC9DDDD27A7E74600B2123B /* SwireChat */,
+				7DC9DDEE27A7E74800B2123B /* SwireChatTests */,
+				7DC9DDF827A7E74800B2123B /* SwireChatUITests */,
+				7DC9DDDC27A7E74600B2123B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7D5A033027A7DACD0066561E /* Products */ = {
+		7DC9DDDC27A7E74600B2123B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D5A032F27A7DACD0066561E /* SwireChat.app */,
-				7D5A034527A7DACF0066561E /* SwireChatTests.xctest */,
-				7D5A034F27A7DAD00066561E /* SwireChatUITests.xctest */,
+				7DC9DDDB27A7E74600B2123B /* SwireChat.app */,
+				7DC9DDEB27A7E74800B2123B /* SwireChatTests.xctest */,
+				7DC9DDF527A7E74800B2123B /* SwireChatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7D5A033127A7DACD0066561E /* SwireChat */ = {
+		7DC9DDDD27A7E74600B2123B /* SwireChat */ = {
 			isa = PBXGroup;
 			children = (
-				7D5A033227A7DACD0066561E /* AppDelegate.swift */,
-				7D5A033427A7DACD0066561E /* SceneDelegate.swift */,
-				7D5A033627A7DACD0066561E /* ViewController.swift */,
-				7D5A033827A7DACD0066561E /* Main.storyboard */,
-				7D5A033B27A7DACF0066561E /* Assets.xcassets */,
-				7D5A033D27A7DACF0066561E /* LaunchScreen.storyboard */,
-				7D5A034027A7DACF0066561E /* Info.plist */,
+				7DC9DDDE27A7E74600B2123B /* SwireChatApp.swift */,
+				7DC9DDE027A7E74600B2123B /* ContentView.swift */,
+				7DC9DDE227A7E74800B2123B /* Assets.xcassets */,
+				7DC9DDE427A7E74800B2123B /* Preview Content */,
 			);
 			path = SwireChat;
 			sourceTree = "<group>";
 		};
-		7D5A034827A7DACF0066561E /* SwireChatTests */ = {
+		7DC9DDE427A7E74800B2123B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7D5A034927A7DACF0066561E /* SwireChatTests.swift */,
+				7DC9DDE527A7E74800B2123B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DC9DDEE27A7E74800B2123B /* SwireChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DC9DDEF27A7E74800B2123B /* SwireChatTests.swift */,
 			);
 			path = SwireChatTests;
 			sourceTree = "<group>";
 		};
-		7D5A035227A7DAD00066561E /* SwireChatUITests */ = {
+		7DC9DDF827A7E74800B2123B /* SwireChatUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7D5A035327A7DAD00066561E /* SwireChatUITests.swift */,
-				7D5A035527A7DAD00066561E /* SwireChatUITestsLaunchTests.swift */,
+				7DC9DDF927A7E74800B2123B /* SwireChatUITests.swift */,
+				7DC9DDFB27A7E74800B2123B /* SwireChatUITestsLaunchTests.swift */,
 			);
 			path = SwireChatUITests;
 			sourceTree = "<group>";
@@ -130,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7D5A032E27A7DACD0066561E /* SwireChat */ = {
+		7DC9DDDA27A7E74600B2123B /* SwireChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D5A035927A7DAD00066561E /* Build configuration list for PBXNativeTarget "SwireChat" */;
+			buildConfigurationList = 7DC9DDFF27A7E74800B2123B /* Build configuration list for PBXNativeTarget "SwireChat" */;
 			buildPhases = (
-				7D5A032B27A7DACD0066561E /* Sources */,
-				7D5A032C27A7DACD0066561E /* Frameworks */,
-				7D5A032D27A7DACD0066561E /* Resources */,
+				7DC9DDD727A7E74600B2123B /* Sources */,
+				7DC9DDD827A7E74600B2123B /* Frameworks */,
+				7DC9DDD927A7E74600B2123B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +144,69 @@
 			);
 			name = SwireChat;
 			productName = SwireChat;
-			productReference = 7D5A032F27A7DACD0066561E /* SwireChat.app */;
+			productReference = 7DC9DDDB27A7E74600B2123B /* SwireChat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7D5A034427A7DACF0066561E /* SwireChatTests */ = {
+		7DC9DDEA27A7E74800B2123B /* SwireChatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D5A035C27A7DAD00066561E /* Build configuration list for PBXNativeTarget "SwireChatTests" */;
+			buildConfigurationList = 7DC9DE0227A7E74800B2123B /* Build configuration list for PBXNativeTarget "SwireChatTests" */;
 			buildPhases = (
-				7D5A034127A7DACF0066561E /* Sources */,
-				7D5A034227A7DACF0066561E /* Frameworks */,
-				7D5A034327A7DACF0066561E /* Resources */,
+				7DC9DDE727A7E74800B2123B /* Sources */,
+				7DC9DDE827A7E74800B2123B /* Frameworks */,
+				7DC9DDE927A7E74800B2123B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7D5A034727A7DACF0066561E /* PBXTargetDependency */,
+				7DC9DDED27A7E74800B2123B /* PBXTargetDependency */,
 			);
 			name = SwireChatTests;
 			productName = SwireChatTests;
-			productReference = 7D5A034527A7DACF0066561E /* SwireChatTests.xctest */;
+			productReference = 7DC9DDEB27A7E74800B2123B /* SwireChatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7D5A034E27A7DAD00066561E /* SwireChatUITests */ = {
+		7DC9DDF427A7E74800B2123B /* SwireChatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D5A035F27A7DAD00066561E /* Build configuration list for PBXNativeTarget "SwireChatUITests" */;
+			buildConfigurationList = 7DC9DE0527A7E74800B2123B /* Build configuration list for PBXNativeTarget "SwireChatUITests" */;
 			buildPhases = (
-				7D5A034B27A7DAD00066561E /* Sources */,
-				7D5A034C27A7DAD00066561E /* Frameworks */,
-				7D5A034D27A7DAD00066561E /* Resources */,
+				7DC9DDF127A7E74800B2123B /* Sources */,
+				7DC9DDF227A7E74800B2123B /* Frameworks */,
+				7DC9DDF327A7E74800B2123B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7D5A035127A7DAD00066561E /* PBXTargetDependency */,
+				7DC9DDF727A7E74800B2123B /* PBXTargetDependency */,
 			);
 			name = SwireChatUITests;
 			productName = SwireChatUITests;
-			productReference = 7D5A034F27A7DAD00066561E /* SwireChatUITests.xctest */;
+			productReference = 7DC9DDF527A7E74800B2123B /* SwireChatUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7D5A032727A7DACD0066561E /* Project object */ = {
+		7DC9DDD327A7E74600B2123B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					7D5A032E27A7DACD0066561E = {
+					7DC9DDDA27A7E74600B2123B = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					7D5A034427A7DACF0066561E = {
+					7DC9DDEA27A7E74800B2123B = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 7D5A032E27A7DACD0066561E;
+						TestTargetID = 7DC9DDDA27A7E74600B2123B;
 					};
-					7D5A034E27A7DAD00066561E = {
+					7DC9DDF427A7E74800B2123B = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 7D5A032E27A7DACD0066561E;
+						TestTargetID = 7DC9DDDA27A7E74600B2123B;
 					};
 				};
 			};
-			buildConfigurationList = 7D5A032A27A7DACD0066561E /* Build configuration list for PBXProject "SwireChat" */;
+			buildConfigurationList = 7DC9DDD627A7E74600B2123B /* Build configuration list for PBXProject "SwireChat" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 7D5A032627A7DACD0066561E;
-			productRefGroup = 7D5A033027A7DACD0066561E /* Products */;
+			mainGroup = 7DC9DDD227A7E74600B2123B;
+			productRefGroup = 7DC9DDDC27A7E74600B2123B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D5A032E27A7DACD0066561E /* SwireChat */,
-				7D5A034427A7DACF0066561E /* SwireChatTests */,
-				7D5A034E27A7DAD00066561E /* SwireChatUITests */,
+				7DC9DDDA27A7E74600B2123B /* SwireChat */,
+				7DC9DDEA27A7E74800B2123B /* SwireChatTests */,
+				7DC9DDF427A7E74800B2123B /* SwireChatUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7D5A032D27A7DACD0066561E /* Resources */ = {
+		7DC9DDD927A7E74600B2123B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5A033F27A7DACF0066561E /* LaunchScreen.storyboard in Resources */,
-				7D5A033C27A7DACF0066561E /* Assets.xcassets in Resources */,
-				7D5A033A27A7DACD0066561E /* Main.storyboard in Resources */,
+				7DC9DDE627A7E74800B2123B /* Preview Assets.xcassets in Resources */,
+				7DC9DDE327A7E74800B2123B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D5A034327A7DACF0066561E /* Resources */ = {
+		7DC9DDE927A7E74800B2123B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D5A034D27A7DAD00066561E /* Resources */ = {
+		7DC9DDF327A7E74800B2123B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,69 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7D5A032B27A7DACD0066561E /* Sources */ = {
+		7DC9DDD727A7E74600B2123B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5A033727A7DACD0066561E /* ViewController.swift in Sources */,
-				7D5A033327A7DACD0066561E /* AppDelegate.swift in Sources */,
-				7D5A033527A7DACD0066561E /* SceneDelegate.swift in Sources */,
+				7DC9DDE127A7E74600B2123B /* ContentView.swift in Sources */,
+				7DC9DDDF27A7E74600B2123B /* SwireChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D5A034127A7DACF0066561E /* Sources */ = {
+		7DC9DDE727A7E74800B2123B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5A034A27A7DACF0066561E /* SwireChatTests.swift in Sources */,
+				7DC9DDF027A7E74800B2123B /* SwireChatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D5A034B27A7DAD00066561E /* Sources */ = {
+		7DC9DDF127A7E74800B2123B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5A035427A7DAD00066561E /* SwireChatUITests.swift in Sources */,
-				7D5A035627A7DAD00066561E /* SwireChatUITestsLaunchTests.swift in Sources */,
+				7DC9DDFA27A7E74800B2123B /* SwireChatUITests.swift in Sources */,
+				7DC9DDFC27A7E74800B2123B /* SwireChatUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7D5A034727A7DACF0066561E /* PBXTargetDependency */ = {
+		7DC9DDED27A7E74800B2123B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7D5A032E27A7DACD0066561E /* SwireChat */;
-			targetProxy = 7D5A034627A7DACF0066561E /* PBXContainerItemProxy */;
+			target = 7DC9DDDA27A7E74600B2123B /* SwireChat */;
+			targetProxy = 7DC9DDEC27A7E74800B2123B /* PBXContainerItemProxy */;
 		};
-		7D5A035127A7DAD00066561E /* PBXTargetDependency */ = {
+		7DC9DDF727A7E74800B2123B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7D5A032E27A7DACD0066561E /* SwireChat */;
-			targetProxy = 7D5A035027A7DAD00066561E /* PBXContainerItemProxy */;
+			target = 7DC9DDDA27A7E74600B2123B /* SwireChat */;
+			targetProxy = 7DC9DDF627A7E74800B2123B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		7D5A033827A7DACD0066561E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D5A033927A7DACD0066561E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7D5A033D27A7DACF0066561E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D5A033E27A7DACF0066561E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		7D5A035727A7DAD00066561E /* Debug */ = {
+		7DC9DDFD27A7E74800B2123B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +356,7 @@
 			};
 			name = Debug;
 		};
-		7D5A035827A7DAD00066561E /* Release */ = {
+		7DC9DDFE27A7E74800B2123B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,19 +411,20 @@
 			};
 			name = Release;
 		};
-		7D5A035A27A7DAD00066561E /* Debug */ = {
+		7DC9DE0027A7E74800B2123B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwireChat/Preview Content\"";
 				DEVELOPMENT_TEAM = 9DENJD3M83;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwireChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,7 +432,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsigns.swirechat.SwireChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsigns.SwireChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,19 +440,20 @@
 			};
 			name = Debug;
 		};
-		7D5A035B27A7DAD00066561E /* Release */ = {
+		7DC9DE0127A7E74800B2123B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwireChat/Preview Content\"";
 				DEVELOPMENT_TEAM = 9DENJD3M83;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwireChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +461,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsigns.swirechat.SwireChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsigns.SwireChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,7 +469,7 @@
 			};
 			name = Release;
 		};
-		7D5A035D27A7DAD00066561E /* Debug */ = {
+		7DC9DE0327A7E74800B2123B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -504,7 +485,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsigns.swirechat.SwireChatTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsigns.SwireChatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -513,7 +494,7 @@
 			};
 			name = Debug;
 		};
-		7D5A035E27A7DAD00066561E /* Release */ = {
+		7DC9DE0427A7E74800B2123B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,7 +510,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsigns.swirechat.SwireChatTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsigns.SwireChatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -538,7 +519,7 @@
 			};
 			name = Release;
 		};
-		7D5A036027A7DAD00066561E /* Debug */ = {
+		7DC9DE0627A7E74800B2123B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -552,7 +533,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsigns.swirechat.SwireChatUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsigns.SwireChatUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -561,7 +542,7 @@
 			};
 			name = Debug;
 		};
-		7D5A036127A7DAD00066561E /* Release */ = {
+		7DC9DE0727A7E74800B2123B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -575,7 +556,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsigns.swirechat.SwireChatUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsigns.SwireChatUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -587,43 +568,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7D5A032A27A7DACD0066561E /* Build configuration list for PBXProject "SwireChat" */ = {
+		7DC9DDD627A7E74600B2123B /* Build configuration list for PBXProject "SwireChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D5A035727A7DAD00066561E /* Debug */,
-				7D5A035827A7DAD00066561E /* Release */,
+				7DC9DDFD27A7E74800B2123B /* Debug */,
+				7DC9DDFE27A7E74800B2123B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D5A035927A7DAD00066561E /* Build configuration list for PBXNativeTarget "SwireChat" */ = {
+		7DC9DDFF27A7E74800B2123B /* Build configuration list for PBXNativeTarget "SwireChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D5A035A27A7DAD00066561E /* Debug */,
-				7D5A035B27A7DAD00066561E /* Release */,
+				7DC9DE0027A7E74800B2123B /* Debug */,
+				7DC9DE0127A7E74800B2123B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D5A035C27A7DAD00066561E /* Build configuration list for PBXNativeTarget "SwireChatTests" */ = {
+		7DC9DE0227A7E74800B2123B /* Build configuration list for PBXNativeTarget "SwireChatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D5A035D27A7DAD00066561E /* Debug */,
-				7D5A035E27A7DAD00066561E /* Release */,
+				7DC9DE0327A7E74800B2123B /* Debug */,
+				7DC9DE0427A7E74800B2123B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D5A035F27A7DAD00066561E /* Build configuration list for PBXNativeTarget "SwireChatUITests" */ = {
+		7DC9DE0527A7E74800B2123B /* Build configuration list for PBXNativeTarget "SwireChatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D5A036027A7DAD00066561E /* Debug */,
-				7D5A036127A7DAD00066561E /* Release */,
+				7DC9DE0627A7E74800B2123B /* Debug */,
+				7DC9DE0727A7E74800B2123B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7D5A032727A7DACD0066561E /* Project object */;
+	rootObject = 7DC9DDD327A7E74600B2123B /* Project object */;
 }
